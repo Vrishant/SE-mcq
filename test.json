@@ -1,6 +1,6 @@
 [
   {
-    "question": "Given the clearly defined and unchanging requirements for a pacemaker's software, which SDLC model is most suitable? [cite: 1, 2, 4]",
+     "question": "Given the clearly defined and unchanging requirements for a pacemaker's software, which SDLC model is most suitable? [cite: 1, 2, 4]",
     "options": [
       "Agile Scrum",
       "V-Model",
@@ -10,17 +10,47 @@
     "answer": "Waterfall"
   },
   {
-    "question": "In project scheduling, what does the “critical path” refer to? [cite: 66, 77]",
+    "question": "One advantage of the Waterfall model in a regulated environment is:",
     "options": [
-      "The sequence of tasks that has the least slack and dictates the project end date.",
-      "The most expensive set of tasks.",
-      "The longest individual task in the schedule.",
-      "A backup plan for delays."
+      "It handles late requirement changes easily.",
+      "It provides clear phase deliverables and documentation.",
+      "It delivers partial features early and often.",
+      "It requires minimal upfront planning."
     ],
-    "answer": "The sequence of tasks that has the least slack and dictates the project end date."
+    "answer": "It provides clear phase deliverables and documentation."
   },
   {
-    "question": "Which planning activity in Scrum focuses on breaking down work for the next 2–4 week sprint? [cite: 21, 26]",
+    "question": "A disadvantage of using the Waterfall model would be:",
+    "options": [
+      "Requires user stories for all features.",
+      "High adaptability to changing requirements.",
+      "Difficulty accommodating requirement changes after design.",
+      "Lacks formal documentation."
+    ],
+    "answer": "Difficulty accommodating requirement changes after design."
+  },
+  {
+    "question": "The Waterfall model is NOT suitable when:",
+    "options": [
+      "Product definition is stable.",
+      "Requirements are unlikely to change.",
+      "Technology is well understood.",
+      "Requirements are expected to evolve frequently."
+    ],
+    "answer": "Requirements are expected to evolve frequently."
+  },
+  {
+     "question": "Which planning activity looks ahead several months to decide on features for an upcoming major release? [cite: 23, 24, 25]",
+    "options": [
+      "Iteration planning",
+      "Release planning",
+      "Risk planning",
+      "Agile planning game"
+    ],
+    "answer": "Release planning"
+  },
+  {
+     "question": "Which planning activity focuses on breaking down work for the next 2-4 week sprint? [cite: 26, 27]",
     "options": [
       "Release planning",
       "Iteration planning",
@@ -30,7 +60,37 @@
     "answer": "Iteration planning"
   },
   {
-    "question": "The requirement 'The system shall be user-friendly' is problematic because it is not: [cite: 36, 41]",
+     "question": "In Extreme Programming (XP), the “planning game” is: [cite: 28, 29, 30]",
+    "options": [
+      "A Gantt-chart estimation technique.",
+      "Based on user stories and measures progress by story points.",
+      "A formal meeting for writing detailed requirements.",
+      "A method of risk analysis."
+    ],
+    "answer": "Based on user stories and measures progress by story points."
+  },
+  {
+     "question": "A known challenge of agile planning in Scrum is: [cite: 32, 33, 34]",
+    "options": [
+      "Heavy upfront documentation required.",
+      "Reliance on continuous customer involvement.",
+      "Inability to change scope once planned.",
+      "Lack of a product backlog."
+    ],
+    "answer": "Reliance on continuous customer involvement."
+  },
+  {
+    "question": "Which of the following is a well-specified requirement?",
+    "options": [
+      "“The system shall be user-friendly.” (not specific)",
+      "“When a user performs a transaction, the account balance shall update within 1 second.” (specific)",
+      "“Make the interface look cool.” (subjective)",
+      "“Users will love using the system.” (unverifiable)"
+    ],
+    "answer": "“When a user performs a transaction, the account balance shall update within 1 second.” (specific)"
+  },
+  {
+     "question": "The requirement “The system shall be user-friendly” is problematic because it is not: [cite: 41, 42, 43]",
     "options": [
       "Flexible",
       "Comprehensive",
@@ -40,7 +100,157 @@
     "answer": "Verifiable and measurable"
   },
   {
-    "question": "Which architectural style is most suitable for a data processing pipeline where data flows through a sequence of processing steps? [cite: 94, 99]",
+     "question": "How could you rephrase “All screens must appear quickly” into a verifiable requirement? [cite: 44, 45, 46, 47]",
+    "options": [
+      "“Screens should load quickly.”",
+      "“Each screen shall load in under 2 seconds after the user requests it.”",
+      "“Users must not notice any delay in screen display.”",
+      "“Screen response time should be reasonable.”"
+    ],
+    "answer": "“Each screen shall load in under 2 seconds after the user requests it.”"
+  },
+  {
+     "question": "According to software engineering principles, a requirement is defined as: [cite: 48, 49, 50, 51]",
+    "options": [
+      "An internal design choice for the software.",
+      "A property or behaviour the software must exhibit.",
+      "A placeholder for future code implementation.",
+      "A type of test case."
+    ],
+    "answer": "A property or behaviour the software must exhibit."
+  },
+  {
+     "question": "In the SecDLC Pre-SDL phase, the team typically: [cite: 54, 55]",
+    "options": [
+      "Performs a system deployment.",
+      "Conducts basic security training for everyone.",
+      "Writes user stories for security features.",
+      "Implements the incident response plan."
+    ],
+    "answer": "Conducts basic security training for everyone."
+  },
+  {
+     "question": "During which SecDLC phase is threat modeling performed? [cite: 56, 57, 58]",
+    "options": [
+      "Design phase (Phase 2)",
+      "Implementation phase (Phase 3)",
+      "Requirements analysis phase (Phase 1)",
+      "Release phase (Phase 5)"
+    ],
+    "answer": "Requirements analysis phase (Phase 1)"
+  },
+  {
+     "question": "Which activity is a key part of the SecDLC Implementation phase? [cite: 59, 60]",
+    "options": [
+      "Static code analysis (white-box testing)",
+      "User acceptance testing",
+      "Distribution of final binary packages",
+      "Writing high-level security policies"
+    ],
+    "answer": "Static code analysis (white-box testing)"
+  },
+  {
+     "question": "In the Release phase of SecDLC, the team must ensure: [cite: 61, 62, 63]",
+    "options": [
+      "Writing new feature code.",
+      "Implementation of threat modeling.",
+      "A fully developed incident response and recovery plan.",
+      "Only performance testing is performed."
+    ],
+    "answer": "A fully developed incident response and recovery plan."
+  },
+  {
+     "question": "In the project management “triple constraint,” which three factors must be balanced? [cite: 67, 68, 69]",
+    "options": [
+      "Scope, Cost, Time",
+      "Time, Technology, Team",
+      "Quality, Testing, Maintenance",
+      "Requirements, Design, Implementation"
+    ],
+    "answer": "Scope, Cost, Time"
+  },
+  {
+     "question": "Which of the following is NOT typically an output of the Project Planning process? [cite: 70, 71, 72]",
+    "options": [
+      "Project plan and schedule",
+      "Work breakdown structure (WBS)",
+      "Risk management plan",
+      "Completed software product"
+    ],
+    "answer": "Completed software product"
+  },
+  {
+     "question": "What information does a Gantt chart primarily convey? [cite: 73, 74, 75, 76]",
+    "options": [
+      "The list of bugs and their severity.",
+      "The project’s organization chart.",
+      "Activities (tasks) plotted against a timeline with start and end dates.",
+      "The project's cost breakdown."
+    ],
+    "answer": "Activities (tasks) plotted against a timeline with start and end dates."
+  },
+  {
+     "question": "In project scheduling, the “critical path” refers to: [cite: 77, 78, 79, 80]",
+    "options": [
+      "The sequence of tasks that has the least slack and dictates the project end date.",
+      "The most expensive set of tasks.",
+      "The longest individual task in the schedule.",
+      "A backup plan for delays."
+    ],
+    "answer": "The sequence of tasks that has the least slack and dictates the project end date."
+  },
+  {
+     "question": "Which step involves initially listing all project, product, and business risks? [cite: 83, 84, 85]",
+    "options": [
+      "Risk analysis",
+      "Risk identification",
+      "Risk monitoring",
+      "Risk mitigation"
+    ],
+    "answer": "Risk identification"
+  },
+  {
+     "question": "Which step involves evaluating the likelihood and impact of identified risks? [cite: 86, 87]",
+    "options": [
+      "Risk analysis",
+      "Risk identification",
+      "Risk monitoring",
+      "Risk execution"
+    ],
+    "answer": "Risk analysis"
+  },
+  {
+     "question": "Which step involves creating plans to address or mitigate the risks? [cite: 88, 89, 90]",
+    "options": [
+      "Risk monitoring",
+      "Risk analysis",
+      "Risk planning (risk mitigation planning)",
+      "Risk identification"
+    ],
+    "answer": "Risk planning (risk mitigation planning)"
+  },
+  {
+     "question": "Which step involves keeping track of identified risks and their triggers throughout the project? [cite: 91, 92, 93]",
+    "options": [
+      "Risk elimination",
+      "Risk analysis",
+      "Risk identification",
+      "Risk monitoring"
+    ],
+    "answer": "Risk monitoring"
+  },
+  {
+     "question": "Which architectural style is most suitable for the event-based notification service (components communicate via events)? [cite: 96, 97]",
+    "options": [
+      "Layered Architecture",
+      "Pipes and Filters",
+      "Event-Driven Architecture",
+      "Client-Server"
+    ],
+    "answer": "Event-Driven Architecture"
+  },
+  {
+     "question": "Which architecture suits a system where data flows through a sequence of processing steps (like an ETL pipeline)? [cite: 98, 99, 100]",
     "options": [
       "Blackboard Architecture",
       "Pipes and Filters Architecture",
@@ -50,17 +260,247 @@
     "answer": "Pipes and Filters Architecture"
   },
   {
-    "question": "In a RACI matrix, who is the person designated as 'Accountable' for a task? [cite: 269, 271]",
+     "question": "What is a key benefit of a layered architecture? [cite: 101, 102, 103, 104]",
     "options": [
-      "The one who performs the work (the doer).",
-      "The one who reviews and has final authority (the buck stops here).",
-      "Any stakeholder who knows about the task.",
-      "Someone who needs to be informed after decisions."
+      "Data is published and subscribed.",
+      "Components can be swapped if they share an interface.",
+      "Each layer can be modified or replaced independently with minimal impact on others.",
+      "It enforces a single, monolithic codebase."
     ],
-    "answer": "The one who reviews and has final authority (the buck stops here)."
+    "answer": "Each layer can be modified or replaced independently with minimal impact on others."
   },
   {
-    "question": "What is the defining characteristic of the Spiral model? [cite: 201, 204]",
+     "question": "In a client-server architecture, the server is responsible for: [cite: 105, 106, 107, 108]",
+    "options": [
+      "Generating user interfaces for clients.",
+      "Storing and managing business logic, security, and data.",
+      "Decoupling events in a pipeline.",
+      "Providing a common blackboard for all clients."
+    ],
+    "answer": "Storing and managing business logic, security, and data."
+  },
+  {
+     "question": "What does it mean for a component to be replaceable? [cite: 111, 112, 113, 114, 115]",
+    "options": [
+      "It has no dependencies.",
+      "It can be swapped with another component providing the same interface.",
+      "It contains only UI elements.",
+      "It is always stateless."
+    ],
+    "answer": "It can be swapped with another component providing the same interface."
+  },
+  {
+     "question": "Which principle is exemplified by defining components as “black boxes” with hidden implementation details? [cite: 116, 117, 118]",
+    "options": [
+      "Tight coupling",
+      "Abstraction (or Encapsulation)",
+      "Procedural cohesion",
+      "Global variables"
+    ],
+    "answer": "Abstraction (or Encapsulation)"
+  },
+  {
+     "question": "If a component is described as “black-box,” which statement is true? [cite: 119, 120, 121, 122, 123]",
+    "options": [
+      "You can see and modify its internal logic directly.",
+      "Its internal design is hidden and only the interface is visible.",
+      "It has no interface or methods.",
+      "It cannot be replaced once built."
+    ],
+    "answer": "Its internal design is hidden and only the interface is visible."
+  },
+  {
+     "question": "Why is emphasizing quality important throughout the development process? [cite: 126, 127, 128, 129]",
+    "options": [
+      "It makes the product more expensive.",
+      "It reduces rework and defects, lowering costs and improving time-to-market.",
+      "It delays project completion with endless checks.",
+      "It ensures there are no bugs 100% of the time."
+    ],
+    "answer": "It reduces rework and defects, lowering costs and improving time-to-market."
+  },
+  {
+     "question": "Who is responsible for quality in a software project? [cite: 130, 131, 132]",
+    "options": [
+      "Only the QA engineers.",
+      "Only the project manager.",
+      "Every stakeholder involved in the software process.",
+      "Only the clients/end-users."
+    ],
+    "answer": "Every stakeholder involved in the software process."
+  },
+  {
+     "question": "What is a likely outcome when a team “does it right” by focusing on quality? [cite: 133, 134, 135, 136]",
+    "options": [
+      "The project will overrun its budget.",
+      "More bugs will go unnoticed.",
+      "The time to deliver the final product is improved.",
+      "The scope of the project will shrink."
+    ],
+    "answer": "The time to deliver the final product is improved."
+  },
+  {
+     "question": "What is the primary purpose of a Requirements Traceability Matrix (RTM)? [cite: 140, 141, 142, 143, 144]",
+    "options": [
+      "Track changes in source code versions.",
+      "Manage project budget and costs.",
+      "Map each requirement through design, implementation, and testing artifacts.",
+      "Schedule team meetings."
+    ],
+    "answer": "Map each requirement through design, implementation, and testing artifacts."
+  },
+  {
+     "question": "What term describes linking requirements forward and backward through development? [cite: 145, 146, 147]",
+    "options": [
+      "Change backlog",
+      "Version control",
+      "Forward and backward tracing",
+      "Waterfall mapping"
+    ],
+    "answer": "Forward and backward tracing"
+  },
+  {
+     "question": "Why is it critical to control changes to requirements through a formal process? [cite: 148, 149, 150, 151]",
+    "options": [
+      "To allow unlimited scope creep.",
+      "Uncontrolled changes can greatly increase costs, delay the schedule, and affect quality and stakeholder expectations.",
+      "To ensure no one ever changes anything.",
+      "Because change requests are always rejected."
+    ],
+    "answer": "Uncontrolled changes can greatly increase costs, delay the schedule, and affect quality and stakeholder expectations."
+  },
+  {
+     "question": "Which of the following helps manage requirement changes effectively? [cite: 152, 153, 154, 155]",
+    "options": [
+      "Using a formal change request process (change control).",
+      "Making changes by email only.",
+      "Updating the code first, then notifying stakeholders later.",
+      "Ignoring any change requests."
+    ],
+    "answer": "Using a formal change request process (change control)."
+  },
+  {
+     "question": "The risk “Key developer will leave the project before it is finished” is classified as: [cite: 158, 159, 160]",
+    "options": [
+      "Project risk",
+      "Product risk",
+      "Business risk",
+      "Technical risk"
+    ],
+    "answer": "Project risk"
+  },
+  {
+     "question": "The risk “A competitive product is marketed before this system is complete” is classified as: [cite: 161, 162, 163]",
+    "options": [
+      "Project risk",
+      "Product risk",
+      "Business risk",
+      "Technology risk"
+    ],
+    "answer": "Business risk"
+  },
+  {
+     "question": "The risk “Specifications for an essential interface are not delivered on schedule” affects: [cite: 164, 165, 166]",
+    "options": [
+      "Only project (schedule)",
+      "Only product (quality)",
+      "Both project and product",
+      "Only business (market)"
+    ],
+    "answer": "Both project and product"
+  },
+  {
+     "question": "In terms of risk type, a problem in a supporting CASE tool’s performance (it underperforms) is a _____ risk. [cite: 167, 168, 169]",
+    "options": [
+      "Project risk",
+      "Product risk",
+      "Business risk",
+      "External risk"
+    ],
+    "answer": "Product risk"
+  },
+  {
+     "question": "In agile methods, requirements are often expressed as: [cite: 172, 173, 174]",
+    "options": [
+      "Detailed specification documents.",
+      "Executive memos.",
+      "User stories.",
+      "Automated tests."
+    ],
+    "answer": "User stories."
+  },
+  {
+     "question": "Why might traditional detailed requirements documents be considered “a waste of time” in an agile project? [cite: 175, 176, 177, 178]",
+    "options": [
+      "Because no documentation is ever used.",
+      "Requirements change so quickly that a detailed doc becomes outdated.",
+      "Agile teams prefer to code without any planning.",
+      "Stakeholders do not care about requirements."
+    ],
+    "answer": "Requirements change so quickly that a detailed doc becomes outdated."
+  },
+  {
+     "question": "Agile requirements (like user stories) are less suitable for which kind of system? [cite: 179, 180, 181, 182]",
+    "options": [
+      "Business website",
+      "Critical systems requiring pre-delivery analysis (e.g., embedded medical devices)",
+      "Consumer mobile game",
+      "Simple scripting tools"
+    ],
+    "answer": "Critical systems requiring pre-delivery analysis (e.g., embedded medical devices)"
+  },
+  {
+     "question": "What does Scrum usually leave out of the process that classic SDLC would include? [cite: 183, 184, 185]",
+    "options": [
+      "A formal change control board",
+      "A long up-front requirements document",
+      "Daily team standups",
+      "A product backlog"
+    ],
+    "answer": "A long up-front requirements document"
+  },
+  {
+     "question": "What is UML primarily used for? [cite: 188, 189, 190]",
+    "options": [
+      "Writing low-level code.",
+      "Visualizing, specifying, constructing, and documenting software artifacts (blueprints).",
+      "Testing performance only.",
+      "Generating end-user manuals."
+    ],
+    "answer": "Visualizing, specifying, constructing, and documenting software artifacts (blueprints)."
+  },
+  {
+     "question": "In a UML use-case model, what are the two fundamental elements? [cite: 191, 192, 193]",
+    "options": [
+      "Actors and use cases.",
+      "Classes and interfaces.",
+      "Activities and swimlanes.",
+      "Tables and schemas."
+    ],
+    "answer": "Actors and use cases."
+  },
+  {
+     "question": "A UML use case is best described as: [cite: 194, 195, 196, 197]",
+    "options": [
+      "A detailed class definition.",
+      "A sequence of user interactions with the system describing one functionality.",
+      "A method for static code analysis.",
+      "A type of database schema."
+    ],
+    "answer": "A sequence of user interactions with the system describing one functionality."
+  },
+  {
+     "question": "Use-case diagrams are typically used in which phase of development? [cite: 198, 199, 200]",
+    "options": [
+      "Coding implementation",
+      "Requirements capture and analysis",
+      "System deployment",
+      "Hardware design"
+    ],
+    "answer": "Requirements capture and analysis"
+  },
+  {
+     "question": "What is the defining characteristic of the Spiral model? [cite: 203, 204, 205, 206]",
     "options": [
       "It has no planning phases.",
       "It proceeds in fixed linear stages only.",
@@ -70,13 +510,233 @@
     "answer": "It is iterative and risk-driven, combining prototyping and planning each cycle."
   },
   {
-    "question": "What is the primary purpose of a Requirements Traceability Matrix (RTM)? [cite: 137, 140]",
+     "question": "Which activity happens in each spiral iteration besides development? [cite: 207, 208, 209, 210]",
     "options": [
-      "Track changes in source code versions.",
-      "Manage project budget and costs.",
-      "Map each requirement through design, implementation, and testing artifacts.",
-      "Schedule team meetings."
+      "Nothing, only coding is done.",
+      "Risk analysis and evaluation of unforeseen issues.",
+      "Final deployment to production.",
+      "Outsourcing project tasks."
     ],
-    "answer": "Map each requirement through design, implementation, and testing artifacts."
+    "answer": "Risk analysis and evaluation of unforeseen issues."
+  },
+  {
+     "question": "An advantage of the Spiral model is: [cite: 211, 212, 213]",
+    "options": [
+      "Simplifying project management to one stage.",
+      "Quickly fixing all requirements upfront.",
+      "Allowing early identification of problems and accommodating change.",
+      "Avoiding any risk assessment."
+    ],
+    "answer": "Allowing early identification of problems and accommodating change."
+  },
+  {
+     "question": "A disadvantage of the Spiral model is: [cite: 214, 215, 216, 217]",
+    "options": [
+      "It ignores stakeholder feedback.",
+      "It requires more planning and experienced management, making it complex.",
+      "It eliminates testing phases.",
+      "It has no exit criteria."
+    ],
+    "answer": "It requires more planning and experienced management, making it complex."
+  },
+  {
+     "question": "According to the levels of abstraction, software architecture deals with: [cite: 220, 221, 222]",
+    "options": [
+      "Low-level coding practices.",
+      "High-level “how” and mid-level “what” of the system.",
+      "The exact implementation in code.",
+      "Only database schemas."
+    ],
+    "answer": "High-level “how” and mid-level “what” of the system."
+  },
+  {
+     "question": "Software design (low-level design) is concerned with: [cite: 223, 224, 225]",
+    "options": [
+      "High-level system goals (“what”).",
+      "Mid-level “how” and low-level “what” (e.g., classes, patterns).",
+      "Executive management decisions.",
+      "Budgeting and scheduling."
+    ],
+    "answer": "Mid-level “how” and low-level “what” (e.g., classes, patterns)."
+  },
+  {
+     "question": "Which of these is an architectural question rather than a design question? [cite: 226, 227, 228, 229]",
+    "options": [
+      "“Which encoder should I use for secure communication?” (Design)",
+      "“How do I add a menu item in the UI?” (Design)",
+      "“Where in the deployment should firewalls be placed?” (Architecture)",
+      "“What variable type should I use for a counter?” (Design)"
+    ],
+    "answer": "“Where in the deployment should firewalls be placed?” (Architecture)"
+  },
+  {
+     "question": "Why is it important to consciously define a system’s architecture? [cite: 230, 231, 232, 233, 234]",
+    "options": [
+      "Because architecture has no effect on development.",
+      "If not defined, the architecture will evolve on its own (possibly chaotically).",
+      "Documentation is never needed in architecture.",
+      "It prevents any need for design patterns."
+    ],
+    "answer": "If not defined, the architecture will evolve on its own (possibly chaotically)."
+  },
+  {
+     "question": "Which description matches an incremental model? [cite: 237, 238, 239, 240, 241]",
+    "options": [
+      "Deliver parts of the system sequentially, each part never changed once done.",
+      "Repeatedly refine the entire system design in each iteration.",
+      "No need for project planning.",
+      "Project is completed in a single step."
+    ],
+    "answer": "Deliver parts of the system sequentially, each part never changed once done."
+  },
+  {
+     "question": "Which description matches an iterative model? [cite: 242, 243, 244]",
+    "options": [
+      "Deliver everything at once without iterations.",
+      "Revisit and refine previous work in each iteration.",
+      "No testing is done until the end.",
+      "The client gets only documentation, no running software."
+    ],
+    "answer": "Revisit and refine previous work in each iteration."
+  },
+  {
+     "question": "Incremental and iterative models differ in that: [cite: 245, 246, 247]",
+    "options": [
+      "Iterative never revisits past increments, incremental always does.",
+      "Incremental delivers working parts without revisiting them, iterative revisits existing parts for improvement.",
+      "They are actually the same thing.",
+      "Both do not allow change."
+    ],
+    "answer": "Incremental delivers working parts without revisiting them, iterative revisits existing parts for improvement."
+  },
+  {
+     "question": "In practice, when is an iterative approach preferred over a purely incremental one? [cite: 248, 249, 250, 251]",
+    "options": [
+      "When requirements are completely fixed.",
+      "When learning and discovery are needed, allowing adaptation.",
+      "When no version control exists.",
+      "When only one developer works on the project."
+    ],
+    "answer": "When learning and discovery are needed, allowing adaptation."
+  },
+  {
+     "question": "What best describes a software process? [cite: 254, 255, 256, 257]",
+    "options": [
+      "A sequence of random tasks.",
+      "A structured set of activities and associated outcomes that produces software.",
+      "Only the coding standards of a team.",
+      "The end-user training plan."
+    ],
+    "answer": "A structured set of activities and associated outcomes that produces software."
+  },
+  {
+     "question": "In process definition, exit criteria are: [cite: 258, 259, 260, 261]",
+    "options": [
+      "The conditions under which the next phase can be started.",
+      "What must be true for the phase to be considered complete.",
+      "The list of team members on leave.",
+      "The final product demo to clients."
+    ],
+    "answer": "What must be true for the phase to be considered complete."
+  },
+  {
+     "question": "Which of these is NOT typically part of defining a process phase? [cite: 262, 263, 264]",
+    "options": [
+      "Entry criteria and exit criteria.",
+      "Tasks and deliverables.",
+      "Responsible roles.",
+      "Final code implementation decisions."
+    ],
+    "answer": "Final code implementation decisions."
+  },
+  {
+     "question": "If a phase has unmet entry criteria, what should happen? [cite: 265, 266, 267, 268]",
+    "options": [
+      "The phase should still start to stay on schedule.",
+      "The phase should be delayed until entry criteria are met.",
+      "Entry criteria are optional.",
+      "Skip directly to the next phase."
+    ],
+    "answer": "The phase should be delayed until entry criteria are met."
+  },
+  {
+     "question": "In the RACI acronym, the person who is “Accountable” for a task is: [cite: 271, 272, 273, 274]",
+    "options": [
+      "The one who performs the work (the doer).",
+      "The one who reviews and has final authority (the buck stops here).",
+      "Any stakeholder who knows about the task.",
+      "Someone who needs to be informed after decisions."
+    ],
+    "answer": "The one who reviews and has final authority (the buck stops here)."
+  },
+  {
+    "question": "In the RACI matrix, the “R” stands for Responsible.  Who is that? [cite: 275, 276, 277, 278]",
+    "options": [
+      "The person who ultimately funds the project.",
+      "The doer(s) who perform the actual work on the task.",
+      "Any external auditors.",
+      "A passive bystander."
+    ],
+    "answer": "The doer(s) who perform the actual work on the task."
+  },
+  {
+     "question": "What does the “C” in RACI stand for? [cite: 279, 280, 281]",
+    "options": [
+      "Created",
+      "Completed",
+      "Consulted (advisors who provide input)",
+      "Closed"
+    ],
+    "answer": "Consulted (advisors who provide input)"
+  },
+  {
+     "question": "What does the “I” stand for in a RACI chart? [cite: 283, 284, 285]",
+    "options": [
+      "Initiator",
+      "Informed (people who are kept updated)",
+      "Insured",
+      "Important"
+    ],
+    "answer": "Informed (people who are kept updated)"
+  },
+  {
+     "question": "Which role of the project manager involves leading the team by providing direction and understanding expectations? [cite: 289, 290, 291]",
+    "options": [
+      "Liaison",
+      "Mentor",
+      "Leader",
+      "Auditor"
+    ],
+    "answer": "Leader"
+  },
+  {
+     "question": "Which role involves the project manager being the link between clients, the team, and upper management? [cite: 292, 293, 294]",
+    "options": [
+      "Mentor",
+      "Liaison",
+      "Stakeholder",
+      "Sponsor"
+    ],
+    "answer": "Liaison"
+  },
+  {
+     "question": "Which role is about guiding team members at each step and giving advice to ensure team cohesion? [cite: 295, 296, 297]",
+    "options": [
+      "Leader",
+      "Liaison",
+      "Mentor",
+      "Sponsor"
+    ],
+    "answer": "Mentor"
+  },
+  {
+     "question": "Which of these is NOT a typical role of a software project manager (from the above list)? [cite: 298, 299, 300]",
+    "options": [
+      "Leader",
+      "Liaison",
+      "Mentor",
+      "Coder"
+    ],
+    "answer": "Coder"
   }
 ]
