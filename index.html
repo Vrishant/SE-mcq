@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="setup-container">
+            <h1>Quiz Setup</h1>
+            <p>Load your quiz questions via a JSON file or by pasting the JSON content directly.</p>
+            
+            <textarea id="json-input" placeholder="Paste your JSON here..."></textarea>
+            
+            <div class="file-upload-wrapper">
+                <label for="json-file" class="file-upload-label">Or Upload a JSON File</label>
+                <input type="file" id="json-file" accept=".json">
+            </div>
+
+            <div class="button-group">
+                <button id="start-btn">Start Quiz</button>
+                <button id="load-sample-btn" class="btn-secondary">SE U1-U2 questions</button>
+            </div>
+            <p id="error-message" class="error"></p>
+        </div>
+
+        <div id="quiz-container" class="hidden">
+            <p id="progress-text"></p>
+            <h2 id="question-text"></h2>
+            <div id="options-container" class="options">
+                </div>
+            <button id="next-btn" class="hidden">Next Question</button>
+        </div>
+
+        <div id="result-container" class="hidden">
+            <h2 id="result-text"></h2>
+            <button id="restart-btn">Try Another Quiz</button>
+            <div id="review-container">
+                </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

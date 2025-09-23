@@ -1,0 +1,224 @@
+/* General Body & Typography */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: #f4f7f9;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align to top for longer review content */
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+h1, h2 {
+    color: #2c3e50;
+}
+
+/* Helper Classes */
+.hidden {
+    display: none;
+}
+
+.error {
+    color: #e74c3c;
+    font-size: 0.9em;
+    margin-top: 10px;
+    height: 1em; /* Reserve space to prevent layout shift */
+}
+
+/* Setup Container */
+#setup-container textarea {
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: monospace;
+    font-size: 14px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+.file-upload-wrapper {
+    margin-bottom: 20px;
+}
+
+.file-upload-label {
+    cursor: pointer;
+    color: #3498db;
+    text-decoration: underline;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+/* Quiz Container */
+#progress-text {
+    font-size: 0.9em;
+    color: #7f8c8d;
+    margin-bottom: 20px;
+}
+
+#question-text {
+    margin-bottom: 25px;
+    font-size: 1.4em;
+    line-height: 1.4;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.option-btn {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    font-size: 1em;
+    background-color: #ecf0f1;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    text-align: left;
+    color:black;
+}
+
+.option-btn:hover:not(:disabled) {
+    background-color: #bdc3c7;
+}
+
+.option-btn.correct {
+    background-color: #2ecc71;
+    border-color: #27ae60;
+    color: white;
+}
+
+.option-btn.incorrect {
+    background-color: #e74c3c;
+    border-color: #c0392b;
+    color: white;
+}
+
+.option-btn:disabled {
+    cursor: not-allowed;
+    opacity: 0.8;
+}
+
+/* Buttons */
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* --- NEW: Review Section Styles --- */
+#review-container {
+    margin-top: 30px;
+    text-align: left;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+}
+
+#review-container h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+.review-question-block {
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.review-question-block p {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: #34495e;
+}
+
+.review-options {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.review-option {
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.review-option.correct {
+    background-color: #dff0d8;
+    border-color: #27ae60;
+    color: #27ae60;
+}
+
+.review-option.user-incorrect {
+    background-color: #f2dede;
+    border-color: #c0392b;
+    color: #c0392b;
+}
+
+.review-label {
+    font-size: 0.8em;
+    font-weight: bold;
+    color: #555;
+    background-color: #e0e0e0;
+    padding: 2px 6px;
+    border-radius: 3px;
+}
+
+
+/* Responsive Design */
+@media (max-width: 640px) {
+    body {
+        padding: 10px;
+    }
+    .container {
+        padding: 20px;
+    }
+
+    #question-text {
+        font-size: 1.2em;
+    }
+
+    .option-btn {
+        padding: 12px;
+    }
+}

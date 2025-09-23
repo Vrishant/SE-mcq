@@ -1,0 +1,532 @@
+[
+  {
+    "question": "According to the core definitions, what constitutes a 'Software System'?",
+    "options": [
+      "A. Only the source code and executable programs required for computation.",
+      "B. A collection of separate programs, configuration files, system documentation, user documentation, and associated websites.",
+      "C. Software developed and maintained specifically to satisfy a single market need.",
+      "D. A stand-alone system developed by an organization and sold on the open market."
+    ],
+    "answer": "A collection of separate programs, configuration files, system documentation, user documentation, and associated websites."
+  },
+  {
+    "question": "Which definition accurately describes Software Engineering?",
+    "options": [
+      "A. The theoretical study of computation, automation, and the foundations of information theory.",
+      "B. The application of a systematic, disciplined, quantifiable approach to the development, operation, and maintenance of software.",
+      "C. The application of science and mathematics exclusively to solve abstract computational problems.",
+      "D. The unstructured 'code-and-fix' approach used for rapid prototyping."
+    ],
+    "answer": "The application of a systematic, disciplined, quantifiable approach to the development, operation, and maintenance of software."
+  },
+  {
+    "question": "What is a key difference regarding control between Generic Software and Custom (Bespoke) Software?",
+    "options": [
+      "A. Generic Software requires a bespoke design, while Custom Software is sold on the open market.",
+      "B. The developing organization controls the specification and features of Generic Software, but the client controls the specification and features of Custom Software.",
+      "C. Custom Software targets a wide range of customers, while Generic Software targets a single, specific customer.",
+      "D. Generic Software is always developed in-house, while Custom Software is always outsourced."
+    ],
+    "answer": "The developing organization controls the specification and features of Generic Software, but the client controls the specification and features of Custom Software."
+  },
+  {
+    "question": "What is the primary purpose of System Software, as defined in the source material?",
+    "options": [
+      "A. To fulfill a user's specific need, such as entertainment or communication.",
+      "B. To allow users to perform specific, user-oriented tasks like word processing.",
+      "C. To operate the computer hardware and provide a platform for other software to run on.",
+      "D. To manage a company's inventory and customer relations."
+    ],
+    "answer": "To operate the computer hardware and provide a platform for other software to run on."
+  },
+  {
+    "question": "When did the term 'Software Crisis' emerge, and what did it primarily highlight?",
+    "options": [
+      "A. Early 2000s, highlighting the difficulty of integrating distributed microservices.",
+      "B. Late 1960s, highlighting the difficulty of writing correct, understandable, and verifiable computer programs amid increasing complexity.",
+      "C. Mid-1980s, highlighting the need for object-oriented programming.",
+      "D. 2010s, highlighting the security risks posed by cloud computing."
+    ],
+    "answer": "Late 1960s, highlighting the difficulty of writing correct, understandable, and verifiable computer programs amid increasing complexity."
+  },
+  {
+    "question": "Which core question drives the field of Software Engineering (SE), distinguishing it from Computer Science (CS)?",
+    "options": [
+      "A. CS: 'How can we do it efficiently?' SE: 'What is computable?'",
+      "B. CS: 'What is computable?' SE: 'How can we build high-quality software reliably, on time, and within budget?'",
+      "C. CS: 'How can we manage complexity?' SE: 'How can we formalize algorithms?'",
+      "D. CS: 'How can we build high-quality software?' SE: 'What is the theoretical foundation of hardware?'"
+    ],
+    "answer": "CS: 'What is computable?' SE: 'How can we build high-quality software reliably, on time, and within budget?'"
+  },
+  {
+    "question": "Which Fundamental Driver of Software Engineering is highlighted when software failures can influence the life or death of a person, such as in medical devices or avionics?",
+    "options": [
+      "A. Scale",
+      "B. Heterogeneity",
+      "C. Life-critical & Mission-critical",
+      "D. Industrial Strength"
+    ],
+    "answer": "Life-critical & Mission-critical"
+  },
+  {
+    "question": "In the FLURPS+ framework for measuring software quality, which attribute refers to the ease with which the software can be adapted to different languages, regions, and cultures?",
+    "options": [
+      "A. Functionality",
+      "B. Usability",
+      "C. Localizability",
+      "D. Reliability"
+    ],
+    "answer": "Localizability"
+  },
+  {
+    "question": "A fundamental principle in software engineering is that the cost to find and fix a defect increases exponentially the later it is discovered. Approximately how much greater is the cost of fixing a defect found after release (Maintenance phase) compared to one found during the Requirements phase?",
+    "options": [
+      "A. ~5x Cost",
+      "B. ~10x Cost",
+      "C. ~20x Cost",
+      "D. ~200x Cost"
+    ],
+    "answer": "~200x Cost"
+  },
+  {
+    "question": "What primary lesson was learned from the Ariane 5 Launch Failure concerning software reuse?",
+    "options": [
+      "A. That high-level design documents must always be checked for consistency.",
+      "B. That reusing software without re-validating it in the new system's context, especially regarding assumptions, is extremely risky.",
+      "C. That all flight control systems must use 64-bit floating-point numbers.",
+      "D. That systems must rely solely on hardware interlocks rather than software for safety."
+    ],
+    "answer": "That reusing software without re-validating it in the new system's context, especially regarding assumptions, is extremely risky."
+  },
+  {
+    "question": "Which activity in the Generic Process Activities produces the Software Requirements Specification (SRS) as its primary deliverable?",
+    "options": [
+      "A. Design",
+      "B. Implementation",
+      "C. Requirement Analysis",
+      "D. Testing"
+    ],
+    "answer": "Requirement Analysis"
+  },
+  {
+    "question": "Which level of abstraction in development focuses on decomposing the system into major components and defining their interactions, addressing non-functional requirements?",
+    "options": [
+      "A. Requirements (High-level 'what')",
+      "B. Architecture (High-Level Design)",
+      "C. Code (Low-level 'how')",
+      "D. Design (Low-Level Design)"
+    ],
+    "answer": "Architecture (High-Level Design)"
+  },
+  {
+    "question": "What is a major disadvantage of the Predictive (Legacy) Waterfall Model?",
+    "options": [
+      "A. It requires extensive risk analysis and prototyping at every phase.",
+      "B. It assumes requirements are frozen and is a poor model for long, complex projects where requirements are likely to evolve.",
+      "C. It allows for continuous delivery of working software every few weeks.",
+      "D. It requires too much upfront client collaboration, which slows down the process."
+    ],
+    "answer": "It assumes requirements are frozen and is a poor model for long, complex projects where requirements are likely to evolve."
+  },
+  {
+    "question": "In the V-Model (Verification and Validation Model), which development phase corresponds to Acceptance Testing?",
+    "options": [
+      "A. High-Level Design (HLD)",
+      "B. System Requirement Specification (SRS)",
+      "C. Business Requirement Specification (BRS)",
+      "D. Low-Level Design (LLD)"
+    ],
+    "answer": "Business Requirement Specification (BRS)"
+  },
+  {
+    "question": "The Incremental Model focuses on adding new, unimplemented functionality to what has already been delivered, while the Iterative Model focuses on what aspect of the system?",
+    "options": [
+      "A. Refuting previous risks and avoiding all prototyping.",
+      "B. Refining the details of existing parts and improving the overall quality of the system with each pass.",
+      "C. Ensuring zero slack on the critical path.",
+      "D. Writing tests only after the code has been written and debugged."
+    ],
+    "answer": "Refining the details of existing parts and improving the overall quality of the system with each pass."
+  },
+  {
+    "question": "Which quadrant of the Spiral Model is responsible for performing risk analysis and building a prototype to mitigate high-risk areas?",
+    "options": [
+      "A. Determine Objectives, Alternatives, Constraints",
+      "B. Evaluate Alternatives, Identify and Resolve Risks",
+      "C. Develop and Verify Next-Level Product",
+      "D. Plan Next Phases"
+    ],
+    "answer": "Evaluate Alternatives, Identify and Resolve Risks"
+  },
+  {
+    "question": "According to the Agile Manifesto, which item is valued more than 'comprehensive documentation'?",
+    "options": [
+      "A. Following a rigid plan",
+      "B. Working software",
+      "C. Contract negotiation",
+      "D. Processes and tools"
+    ],
+    "answer": "Working software"
+  },
+  {
+    "question": "Which of the 12 Agile Principles states that 'Working software is the primary measure of progress'?",
+    "options": [
+      "A. Principle 1: Customer satisfaction through early and continuous delivery.",
+      "B. Principle 7: Working software is the primary measure of progress.",
+      "C. Principle 10: Simplicity—the art of maximizing the amount of work not done—is essential.",
+      "D. Principle 4: Business people and developers must work together daily."
+    ],
+    "answer": "Principle 7: Working software is the primary measure of progress."
+  },
+  {
+    "question": "In the Scrum Framework, which role is a servant-leader responsible for facilitating the Scrum process, removing impediments, and coaching the team?",
+    "options": [
+      "A. Product Owner",
+      "B. Development Team",
+      "C. Scrum Master",
+      "D. Stakeholder"
+    ],
+    "answer": "Scrum Master"
+  },
+  {
+    "question": "What is the Product Backlog, as defined in Scrum Artifacts?",
+    "options": [
+      "A. The sum of all completed items from previous Sprints.",
+      "B. The set of items selected for the current Sprint, plus a plan for delivery.",
+      "C. A prioritized list of all desired features, functionalities, requirements, and fixes for the product, serving as the single source of requirements.",
+      "D. The plan for improvements to be enacted during the next Sprint."
+    ],
+    "answer": "A prioritized list of all desired features, functionalities, requirements, and fixes for the product, serving as the single source of requirements."
+  },
+  {
+    "question": "Which criteria from the INVEST model for User Stories ensures that the story has clear acceptance criteria to verify when it is 'Done'?",
+    "options": [
+      "A. Independent",
+      "B. Negotiable",
+      "C. Testable",
+      "D. Small"
+    ],
+    "answer": "Testable"
+  },
+  {
+    "question": "Which eXtreme Programming (XP) core practice involves writing a failing automated test before writing the production code to satisfy that test?",
+    "options": [
+      "A. Pair Programming",
+      "B. System Metaphor",
+      "C. Simple Design",
+      "D. Test-Driven Development (TDD)"
+    ],
+    "answer": "Test-Driven Development (TDD)"
+  },
+  {
+    "question": "The Lean Agile Principle of 'Decide as Late as Possible' advocates for what practice?",
+    "options": [
+      "A. Delaying the final release date to ensure maximum quality.",
+      "B. Keeping options open and avoiding irreversible decisions until necessary facts are gathered.",
+      "C. Eliminating all forms of waste, including unnecessary documentation.",
+      "D. Empowering the team to make only the simplest design choices."
+    ],
+    "answer": "Keeping options open and avoiding irreversible decisions until necessary facts are gathered."
+  },
+  {
+    "question": "A requirement stating that 'When the user accesses any screen, it must appear on the monitor within 2 seconds' is a good example of satisfying which property of a good requirement?",
+    "options": [
+      "A. Complete",
+      "B. Verifiable/Testable",
+      "C. Feasible",
+      "D. Concise"
+    ],
+    "answer": "Verifiable/Testable"
+  },
+  {
+    "question": "Which requirements elicitation technique involves a social scientist observing people in their actual work environment to understand their tasks and implicit needs?",
+    "options": [
+      "A. Interviews",
+      "B. Facilitated Meetings",
+      "C. Prototyping",
+      "D. Ethnography"
+    ],
+    "answer": "Ethnography"
+  },
+  {
+    "question": "Functional Requirements define the services the system should provide. What do Non-Functional Requirements (NFRs) primarily define?",
+    "options": [
+      "A. The sequence of operations in the code ('The how well' of the system).",
+      "B. The constraints on the services or functions offered by the system, defining system properties and quality attributes.",
+      "C. Constraints arising from the domain of operation, such as legal standards.",
+      "D. The high-level statements written for customers ('The what' of the system)."
+    ],
+    "answer": "The constraints on the services or functions offered by the system, defining system properties and quality attributes."
+  },
+  {
+    "question": "What is the difference between Requirements Validation and Verification?",
+    "options": [
+      "A. Validation is 'Are we building the product right?'; Verification is 'Are we building the right product?'",
+      "B. Validation involves executing code; Verification is a static process that does not execute code.",
+      "C. Verification is performed by the client; Validation is performed by the development team.",
+      "D. Verification uses prototyping; Validation uses acceptance criteria."
+    ],
+    "answer": "Validation is 'Are we building the product right?'; Verification is 'Are we building the right product?'"
+  },
+  {
+    "question": "The purpose of 'Forward Tracing' in a Requirements Traceability Matrix (RTM) is to ensure what?",
+    "options": [
+      "A. That the design and code map back to a requirement, ensuring everything built is justified.",
+      "B. That all requirements are implemented in downstream work products (design, code, tests).",
+      "C. That the project complies with HIPAA and GDPR standards.",
+      "D. That all proposed changes are formally analyzed and costed."
+    ],
+    "answer": "That all requirements are implemented in downstream work products (design, code, tests)."
+  },
+  {
+    "question": "In UML Use Case Diagrams, which relationship indicates that one use case (the base) always includes the functionality of another (the inclusion)?",
+    "options": [
+      "A. Association",
+      "B. <<include>>",
+      "C. <<extend>>",
+      "D. Generalization"
+    ],
+    "answer": "<<include>>"
+  },
+  {
+    "question": "What is the term for an incorrect step, process, or data definition in the software, which is the result of an error and represents the error in the code?",
+    "options": [
+      "A. Failure",
+      "B. Bug (specifically if found after release)",
+      "C. Fault (or Defect)",
+      "D. Crash"
+    ],
+    "answer": "Fault (or Defect)"
+  },
+  {
+    "question": "Which level of testing is performed by the client, users, or system providers, and determines if the system meets the business requirements and is ready for delivery?",
+    "options": [
+      "A. Unit Testing",
+      "B. Integration Testing",
+      "C. System Testing",
+      "D. Acceptance Testing"
+    ],
+    "answer": "Acceptance Testing"
+  },
+  {
+    "question": "During the Requirements phase of the Security Development Life Cycle (SecDLC), which activity is mandated?",
+    "options": [
+      "A. Performing static code analysis and prohibiting unsafe functions.",
+      "B. Defining security requirements by performing a Security Risk Assessment (SRA) and Threat Modeling.",
+      "C. Conducting a Final Security Review (FSR) before release.",
+      "D. Performing fuzz testing and penetration testing."
+    ],
+    "answer": "Defining security requirements by performing a Security Risk Assessment (SRA) and Threat Modeling."
+  },
+  {
+    "question": "In the 4 Ps of Software Engineering framework, which 'P' includes the chosen SDLC (e.g., Agile, Waterfall), the project lifecycle stages, and the change management protocols?",
+    "options": [
+      "A. People",
+      "B. Process",
+      "C. Product",
+      "D. Project Environment"
+    ],
+    "answer": "Process"
+  },
+  {
+    "question": "In the Project Management Triangle, what is considered the central theme, affected by the balance of Scope, Time, and Cost?",
+    "options": [
+      "A. Stakeholder Engagement",
+      "B. Quality",
+      "C. Risk",
+      "D. Documentation"
+    ],
+    "answer": "Quality"
+  },
+  {
+    "question": "Which algorithmic model is used to estimate software cost, effort, and schedule based primarily on the project's size, measured in KLOC (Kilo Lines of Code)?",
+    "options": [
+      "A. RACI Matrix",
+      "B. Work Breakdown Structure (WBS)",
+      "C. Critical Path Method (CPM)",
+      "D. CoCoMo (Constructive Cost Model)"
+    ],
+    "answer": "CoCoMo (Constructive Cost Model)"
+  },
+  {
+    "question": "Which CoCoMo Project Type is characterized by high complexity, tight constraints, and requires high experience (e.g., ATM Software, Avionics)?",
+    "options": [
+      "A. Organic",
+      "B. Semi-detached",
+      "C. Embedded",
+      "D. Adaptive"
+    ],
+    "answer": "Embedded"
+  },
+  {
+    "question": "The Critical Path Method (CPM) is a scheduling technique used to identify what?",
+    "options": [
+      "A. All tasks that must be performed by the Project Manager.",
+      "B. The tasks with the greatest staff turnover risk.",
+      "C. The longest sequence of dependent tasks that determines the project's minimum duration.",
+      "D. The tasks that have the highest possibility of budget overrun."
+    ],
+    "answer": "The longest sequence of dependent tasks that determines the project's minimum duration."
+  },
+  {
+    "question": "If a software project faces a risk that affects the quality or performance of the software, such as an underestimate of project size or rapidly changing requirements, which risk category does this fall under?",
+    "options": [
+      "A. Project Risk",
+      "B. Product Risk",
+      "C. Business Risk",
+      "D. Organizational Risk"
+    ],
+    "answer": "Product Risk"
+  },
+  {
+    "question": "In a RACI Matrix, what is the key rule for the 'Accountable' role?",
+    "options": [
+      "A. The person(s) who actually perform the task (Can be multiple 'R's).",
+      "B. The single person with ultimate ownership and veto power (Must be only one 'A').",
+      "C. The subject matter experts whose input is sought (Two-way communication).",
+      "D. People who are updated on progress (One-way communication)."
+    ],
+    "answer": "The single person with ultimate ownership and veto power (Must be only one 'A')."
+  },
+  {
+    "question": "What is the primary concern of Software Architecture (High-Level Design)?",
+    "options": [
+      "A. Implementing algorithms and data structures within a single component.",
+      "B. Addressing non-functional requirements (performance, security) and defining the overall structure and major technology choices.",
+      "C. Writing the actual implementation code in a programming language.",
+      "D. Writing the Unit Tests and Integration Tests for components."
+    ],
+    "answer": "Addressing non-functional requirements (performance, security) and defining the overall structure and major technology choices."
+  },
+  {
+    "question": "In the case study of the Therac-25 machine failure, which architectural flaw allowed a bug in one part to corrupt another?",
+    "options": [
+      "A. Excessive use of the Pipes and Filters pattern.",
+      "B. Lack of traceability in the requirements.",
+      "C. Tight Coupling, where the UI, control logic, and hardware control shared global memory.",
+      "D. Failure to implement the Strangler Pattern."
+    ],
+    "answer": "Tight Coupling, where the UI, control logic, and hardware control shared global memory."
+  },
+  {
+    "question": "Which architectural pattern is defined by data flowing through a sequence of independent, stateless processing components connected by data streams, like a Unix shell pipeline?",
+    "options": [
+      "A. Model-View-Controller (MVC)",
+      "B. Layered Systems",
+      "C. Pipes and Filters",
+      "D. Client-Server"
+    ],
+    "answer": "Pipes and Filters"
+  },
+  {
+    "question": "In the Model-View-Controller (MVC) architectural pattern, which component manages the application's data and business logic and is independent of the user interface?",
+    "options": [
+      "A. Controller",
+      "B. View",
+      "C. Model",
+      "D. Adapter"
+    ],
+    "answer": "Model"
+  },
+  {
+    "question": "What is the name of the pattern for gradually migrating from a monolithic application by building new features as microservices around the old monolith, using a facade to route traffic?",
+    "options": [
+      "A. Blackboard Architecture",
+      "B. Anticorruption Layer",
+      "C. Strangler Pattern",
+      "D. Event-Driven Architecture"
+    ],
+    "answer": "Strangler Pattern"
+  },
+  {
+    "question": "Which core design principle is a measure of how closely related and focused the responsibilities of a single module are, with the ideal being Functional?",
+    "options": [
+      "A. Coupling",
+      "B. Modularity",
+      "C. Cohesion",
+      "D. Information Hiding"
+    ],
+    "answer": "Cohesion"
+  },
+  {
+    "question": "Which type of coupling is considered the weakest (best) in software design, where modules share data only through simple parameters?",
+    "options": [
+      "A. Content Coupling",
+      "B. Common Coupling",
+      "C. Control Coupling",
+      "D. Data Coupling"
+    ],
+    "answer": "Data Coupling"
+  },
+  {
+    "question": "If a developer changes the internal design decisions of a module, which concept, achieved through encapsulation and separating interface from implementation, aims to prevent the rest of the system from being affected by this change?",
+    "options": [
+      "A. High Cohesion",
+      "B. Information Hiding",
+      "C. Content Coupling",
+      "D. Semantic Versioning"
+    ],
+    "answer": "Information Hiding"
+  },
+  {
+    "question": "Changing the Application Programming Interface (API) of a component typically requires what action from the client code?",
+    "options": [
+      "A. No action, as APIs only affect binary execution.",
+      "B. The client code must be recompiled.",
+      "C. The client application will crash at runtime without recompilation.",
+      "D. Only a simple parameter change in the calling function."
+    ],
+    "answer": "The client code must be recompiled."
+  },
+  {
+    "question": "Which error handling pattern forces the caller to explicitly handle either a success value or an error by returning a type that encapsulates both possibilities (e.g., Result<T, E>)?",
+    "options": [
+      "A. HTTP Status Codes",
+      "B. Exception-Based Flow",
+      "C. Return Code Checks",
+      "D. Result/Option Types"
+    ],
+    "answer": "Result/Option Types"
+  },
+  {
+    "question": "In Usability Engineering, which aspect focuses on how easily a new user can accomplish basic tasks and is often addressed during the initial design phase?",
+    "options": [
+      "A. Efficiency",
+      "B. Learnability",
+      "C. Satisfaction",
+      "D. Memorability"
+    ],
+    "answer": "Learnability"
+  },
+  {
+    "question": "Which category of the Cost of Quality (COQ) includes costs incurred due to defects found after delivery to the customer, such as warranty claims or reputational damage?",
+    "options": [
+      "A. Internal Failure Costs",
+      "B. Prevention Costs",
+      "C. Appraisal Costs",
+      "D. External Failure Costs"
+    ],
+    "answer": "External Failure Costs"
+  },
+  {
+    "question": "The Technical Debt Quadrant includes 'Prudent and Deliberate' debt. How is this defined?",
+    "options": [
+      "A. Debt created through ignorance ('What's a design pattern?').",
+      "B. A calculated, strategic choice to ship now and deal with the consequences later.",
+      "C. Debt caused by delayed refactoring and poor version control.",
+      "D. Debt discovered unintentionally as knowledge of the system grows."
+    ],
+    "answer": "A calculated, strategic choice to ship now and deal with the consequences later."
+  },
+  {
+    "question": "In the Test-Driven Development (TDD) 'Red-Green-Refactor' cycle, what is the action taken during the 'Red' step?",
+    "options": [
+      "A. Write the simplest production code possible to make the test pass.",
+      "B. Write a failing automated test for a new piece of functionality.",
+      "C. Clean up the code, improving its design while ensuring all tests pass.",
+      "D. Deploy the code to production to gather user feedback."
+    ],
+    "answer": "Write a failing automated test for a new piece of functionality."
+  }
+]

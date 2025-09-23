@@ -1,0 +1,82 @@
+[
+  {
+    "question": "Given the clearly defined and unchanging requirements for a pacemaker's software, which SDLC model is most suitable? [cite: 1, 2, 4]",
+    "options": [
+      "Agile Scrum",
+      "V-Model",
+      "Waterfall",
+      "Prototyping"
+    ],
+    "answer": "Waterfall"
+  },
+  {
+    "question": "In project scheduling, what does the “critical path” refer to? [cite: 66, 77]",
+    "options": [
+      "The sequence of tasks that has the least slack and dictates the project end date.",
+      "The most expensive set of tasks.",
+      "The longest individual task in the schedule.",
+      "A backup plan for delays."
+    ],
+    "answer": "The sequence of tasks that has the least slack and dictates the project end date."
+  },
+  {
+    "question": "Which planning activity in Scrum focuses on breaking down work for the next 2–4 week sprint? [cite: 21, 26]",
+    "options": [
+      "Release planning",
+      "Iteration planning",
+      "Project scheduling",
+      "Daily stand-up"
+    ],
+    "answer": "Iteration planning"
+  },
+  {
+    "question": "The requirement 'The system shall be user-friendly' is problematic because it is not: [cite: 36, 41]",
+    "options": [
+      "Flexible",
+      "Comprehensive",
+      "Verifiable and measurable",
+      "High-level"
+    ],
+    "answer": "Verifiable and measurable"
+  },
+  {
+    "question": "Which architectural style is most suitable for a data processing pipeline where data flows through a sequence of processing steps? [cite: 94, 99]",
+    "options": [
+      "Blackboard Architecture",
+      "Pipes and Filters Architecture",
+      "Layered Architecture",
+      "Client-Server"
+    ],
+    "answer": "Pipes and Filters Architecture"
+  },
+  {
+    "question": "In a RACI matrix, who is the person designated as 'Accountable' for a task? [cite: 269, 271]",
+    "options": [
+      "The one who performs the work (the doer).",
+      "The one who reviews and has final authority (the buck stops here).",
+      "Any stakeholder who knows about the task.",
+      "Someone who needs to be informed after decisions."
+    ],
+    "answer": "The one who reviews and has final authority (the buck stops here)."
+  },
+  {
+    "question": "What is the defining characteristic of the Spiral model? [cite: 201, 204]",
+    "options": [
+      "It has no planning phases.",
+      "It proceeds in fixed linear stages only.",
+      "It is iterative and risk-driven, combining prototyping and planning each cycle.",
+      "It delivers fully-functional increments every week."
+    ],
+    "answer": "It is iterative and risk-driven, combining prototyping and planning each cycle."
+  },
+  {
+    "question": "What is the primary purpose of a Requirements Traceability Matrix (RTM)? [cite: 137, 140]",
+    "options": [
+      "Track changes in source code versions.",
+      "Manage project budget and costs.",
+      "Map each requirement through design, implementation, and testing artifacts.",
+      "Schedule team meetings."
+    ],
+    "answer": "Map each requirement through design, implementation, and testing artifacts."
+  }
+]
