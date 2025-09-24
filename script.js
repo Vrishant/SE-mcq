@@ -79,7 +79,8 @@ document.addEventListener('DOMContentLoaded', () => {
         try {
             const response = await fetch('./DAU1.json');
             const data = await response.json();
-            jsonInput.value = data;
+            sampleJsonData = JSON.stringify(data, null, 2);
+            jsonInput.value = sampleJsonData;
             loadQuestions();
         } catch (error) {
             errorMessage.textContent = `Error: Could not load DA.json.`;
