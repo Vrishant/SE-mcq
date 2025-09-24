@@ -70,20 +70,19 @@ document.addEventListener('DOMContentLoaded', () => {
             jsonInput.value = sampleJsonData;
             loadQuestions();
         } catch (error) {
-            errorMessage.textContent = `Error: Could not load sample.json.`;
+            errorMessage.textContent = `Error: Could not load SE.json.`;
             console.error("Fetch error:", error);
         }
     }
     async function fetchSampleData3() {
         errorMessage.textContent = '';
         try {
-            const response = await fetch('./daU1.json');
+            const response = await fetch('./DAU1.json');
             const data = await response.json();
-            sampleJsonData = JSON.stringify(data, null, 2);
-            jsonInput.value = sampleJsonData;
+            jsonInput.value = data;
             loadQuestions();
         } catch (error) {
-            errorMessage.textContent = `Error: Could not load sample.json.`;
+            errorMessage.textContent = `Error: Could not load DA.json.`;
             console.error("Fetch error:", error);
         }
     }
