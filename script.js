@@ -16,6 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const startBtn = document.getElementById('start-btn');
     const loadSampleBtn = document.getElementById('load-sample-btn');
     const loadSampleBtn2 = document.getElementById('load-sample-btn2');
+    const loadSampleBtn_daU1 = document.getElementById('load-sample-btn-daU1');
     const errorMessage = document.getElementById('error-message');
 
     const progressText = document.getElementById('progress-text');
@@ -31,6 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
     startBtn.addEventListener('click', loadQuestions);
     loadSampleBtn.addEventListener('click', fetchSampleData);
     loadSampleBtn2.addEventListener('click', fetchSampleData2);
+    loadSampleBtn_daU1.addEventListener('click', fetchSampleData3);
     fileInput.addEventListener('change', handleFileUpload);
     nextBtn.addEventListener('click', showNextQuestion);
     restartBtn.addEventListener('click', restartQuiz);
@@ -63,6 +65,19 @@ document.addEventListener('DOMContentLoaded', () => {
         errorMessage.textContent = '';
         try {
             const response = await fetch('./test.json');
+            const data = await response.json();
+            sampleJsonData = JSON.stringify(data, null, 2);
+            jsonInput.value = sampleJsonData;
+            loadQuestions();
+        } catch (error) {
+            errorMessage.textContent = `Error: Could not load sample.json.`;
+            console.error("Fetch error:", error);
+        }
+    }
+    async function fetchSampleData3() {
+        errorMessage.textContent = '';
+        try {
+            const response = await fetch('./daU1.json');
             const data = await response.json();
             sampleJsonData = JSON.stringify(data, null, 2);
             jsonInput.value = sampleJsonData;

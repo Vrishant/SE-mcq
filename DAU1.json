@@ -1,0 +1,812 @@
+[
+  {
+    "question": "What is the primary definition of Data Analytics? [cite: 4]",
+    "options": [
+      "The process of calculating statistical averages for historical data.",
+      "The science of examining raw data to elicit patterns, develop insights, and draw conclusions to help take a business decision.",
+      "A method primarily used for forecasting future financial trends.",
+      "A software tool designed solely for data visualization."
+    ],
+    "answer": "The science of examining raw data to elicit patterns, develop insights, and draw conclusions to help take a business decision."
+  },
+  {
+    "question": "How is 'Analytics' distinguished from 'Analysis' according to the sources? [cite: 5]",
+    "options": [
+      "Analysis involves forecasting, while Analytics involves examining past data.",
+      "Analytics involves examining and understanding past data only.",
+      "Analytics is Analysis plus forecasting or predictive modeling.",
+      "Analysis is the science, and Analytics is the application."
+    ],
+    "answer": "Analytics is Analysis plus forecasting or predictive modeling."
+  },
+  {
+    "question": "In which application area is Data Analytics used to analyze buyer behavior in order to plan inventory and recommend products? [cite: 5]",
+    "options": [
+      "Banking",
+      "Retail stores",
+      "OTT Platforms",
+      "E-Commerce"
+    ],
+    "answer": "E-Commerce"
+  },
+  {
+    "question": "What is identified as the most important component of analytics, consisting of statistical and operations research techniques, machine learning, and deep learning algorithms? [cite: 8]",
+    "options": [
+      "Information Technology",
+      "Data Science",
+      "Business Intelligence",
+      "Intuition or deductive reasoning"
+    ],
+    "answer": "Data Science"
+  },
+  {
+    "question": "What is the approximate size equivalence of one Petabyte (PB)? [cite: 9]",
+    "options": [
+      "1024 KB",
+      "1024 GB",
+      "10^12 bytes",
+      "10^15 bytes"
+    ],
+    "answer": "10^15 bytes"
+  },
+  {
+    "question": "What is an attribute defined as in the context of data? [cite: 11]",
+    "options": [
+      "A collection of data objects.",
+      "A property or characteristic of an object.",
+      "A record or point in a dataset.",
+      "The numerical or symbolic value assigned to a property."
+    ],
+    "answer": "A property or characteristic of an object."
+  },
+  {
+    "question": "Which term is NOT listed as an alternative name for an 'attribute'? [cite: 11]",
+    "options": [
+      "Variable",
+      "Field",
+      "Feature",
+      "Entity"
+    ],
+    "answer": "Entity"
+  },
+  {
+    "question": "Which type of attribute allows for meaningful differences and ratios, with temperature in Kelvin being an example? [cite: 13]",
+    "options": [
+      "Nominal",
+      "Ordinal",
+      "Interval",
+      "Ratio"
+    ],
+    "answer": "Ratio"
+  },
+  {
+    "question": "To what type of attribute does temperature in Celsius or Fahrenheit belong? [cite: 13]",
+    "options": [
+      "Ratio",
+      "Ordinal",
+      "Interval",
+      "Nominal"
+    ],
+    "answer": "Interval"
+  },
+  {
+    "question": "Which statement accurately describes a Discrete Attribute? [cite: 13, 14]",
+    "options": [
+      "It has real numbers as attribute values.",
+      "It is typically represented as a floating point variable.",
+      "It has only a finite or countably infinite set of values.",
+      "It is a generalization of a continuous attribute."
+    ],
+    "answer": "It has only a finite or countably infinite set of values."
+  },
+  {
+    "question": "What is Structured Data primarily characterized by? [cite: 15]",
+    "options": [
+      "Data that contains tags and metadata but lacks a fixed schema.",
+      "Data that is described in a matrix form with labelled rows and columns.",
+      "Any data that is not originally in a matrix form.",
+      "Text and multimedia content."
+    ],
+    "answer": "Data that is described in a matrix form with labelled rows and columns."
+  },
+  {
+    "question": "Which of the following is considered an example of Semi-structured Data? [cite: 16]",
+    "options": [
+      "Relational databases",
+      "XML documents and NoSQL databases",
+      "Word processing documents (bulk text)",
+      "Streaming instrument data"
+    ],
+    "answer": "XML documents and NoSQL databases"
+  },
+  {
+    "question": "In the context of data representation, what defines Transaction Data? [cite: 20]",
+    "options": [
+      "A collection of records with a fixed set of attributes.",
+      "Data where each document is a term vector.",
+      "A special type of record data where each record (transaction) involves a set of items.",
+      "Data aggregated in a multi-dimensional cube."
+    ],
+    "answer": "A special type of record data where each record (transaction) involves a set of items."
+  },
+  {
+    "question": "What is the OLAP operation that summarizes data by climbing up a hierarchy or by dimension reduction? [cite: 23, 24]",
+    "options": [
+      "Drill down",
+      "Roll up",
+      "Slice and dice",
+      "Pivot"
+    ],
+    "answer": "Roll up"
+  },
+  {
+    "question": "If a user wants to observe data only for a specific subset within one dimension, such as observing only 'branch A' data in a data cube, which OLAP operation must be performed? [cite: 25, 27]",
+    "options": [
+      "Dicing",
+      "Roll-Up",
+      "Slicing",
+      "Pivot"
+    ],
+    "answer": "Slicing"
+  },
+  {
+    "question": "Which OLAP operation involves changing the viewpoint of the data cube, for example, transforming the comparison from 'year versus branch' to 'branch versus item type', without altering the underlying data? [cite: 26]",
+    "options": [
+      "Drill down",
+      "Slicing",
+      "Pivot (rotate)",
+      "Roll up"
+    ],
+    "answer": "Pivot (rotate)"
+  },
+  {
+    "question": "What is the consequence of relying on low quality data for analysis? [cite: 29]",
+    "options": [
+      "The analysis will produce results faster.",
+      "The data will be easier to integrate.",
+      "It will lead to low quality analysis.",
+      "It guarantees unbiased insights."
+    ],
+    "answer": "It will lead to low quality analysis."
+  },
+  {
+    "question": "Which measure of data quality is violated by data having discrepancies like Age recorded as 50 but Date of Birth recorded as 03/04/2005? [cite: 32]",
+    "options": [
+      "Accuracy",
+      "Completeness",
+      "Consistency",
+      "Timeliness"
+    ],
+    "answer": "Consistency"
+  },
+  {
+    "question": "Which of the following is NOT one of the major tasks in Data Preprocessing? [cite: 34]",
+    "options": [
+      "Data Cleaning",
+      "Data Integration",
+      "Data Modeling",
+      "Data Transformation"
+    ],
+    "answer": "Data Modeling"
+  },
+  {
+    "question": "In data cleaning, what is the recommended practice for filling in missing values for *skewed* data distributions? [cite: 36]",
+    "options": [
+      "Replace it with the mean.",
+      "Replace it with the mode.",
+      "Replace it with the median.",
+      "Replace it with a global constant like 'Unknown'."
+    ],
+    "answer": "Replace it with the median."
+  },
+  {
+    "question": "In which type of missing data mechanism is the missing data independent of both the observed and unobserved data, meaning no systematic differences exist between complete and incomplete records? [cite: 36, 37, 41]",
+    "options": [
+      "Missing Completely At Random (MCAR)",
+      "Missing At Random (MAR)",
+      "Missing Not At Random (MNAR)",
+      "Missing Systematically (MS)"
+    ],
+    "answer": "Missing Completely At Random (MCAR)"
+  },
+  {
+    "question": "Which type of missing data mechanism assumes that the missing value can be predicted based on the other observed data, but the missingness is still random (e.g., likelihood of survey completion depends on employment status)? [cite: 38, 41]",
+    "options": [
+      "Missing Completely At Random (MCAR)",
+      "Missing At Random (MAR)",
+      "Missing Not At Random (MNAR)",
+      "Non-ignorable missingness"
+    ],
+    "answer": "Missing At Random (MAR)"
+  },
+  {
+    "question": "If the missingness of data depends on the value of the data itself (e.g., people in certain income brackets might not disclose assets), which type of missingness is this? [cite: 39, 40, 42]",
+    "options": [
+      "Missing Completely At Random (MCAR)",
+      "Missing At Random (MAR)",
+      "Missing Not At Random (MNAR)",
+      "Pairwise deletion"
+    ],
+    "answer": "Missing Not At Random (MNAR)"
+  },
+  {
+    "question": "Which type of missing data mechanism is often referred to as 'non-ignorable' because the missing data mechanism itself must be modeled? [cite: 44, 53]",
+    "options": [
+      "MCAR",
+      "MAR",
+      "MNAR",
+      "LOCF"
+    ],
+    "answer": "MNAR"
+  },
+  {
+    "question": "Which of the following is a technique used for data smoothening to combat noise? [cite: 47]",
+    "options": [
+      "Principal Component Analysis (PCA)",
+      "Regression",
+      "Attribute subset selection",
+      "Normalization"
+    ],
+    "answer": "Regression"
+  },
+  {
+    "question": "In which scenario would outliers NOT be considered noise interfering with data analysis, but rather the main goal of the analysis? [cite: 48]",
+    "options": [
+      "Calculating the mean income of a population.",
+      "Detecting credit card fraud.",
+      "Smoothening time series data.",
+      "Performing binning on continuous attributes."
+    ],
+    "answer": "Detecting credit card fraud."
+  },
+  {
+    "question": "During the data cleaning process, which rule specifies that there should not be any missing values between the lowest and highest value for an attribute, such as a cheque number? [cite: 50]",
+    "options": [
+      "Uniqueness rule",
+      "Null rule",
+      "Consecutive rule",
+      "Field overloading rule"
+    ],
+    "answer": "Consecutive rule"
+  },
+  {
+    "question": "Which tool is used in the data cleaning process to detect errors and make corrections using simple domain knowledge, such as spell-check? [cite: 51]",
+    "options": [
+      "Data auditing tools",
+      "ETL tools",
+      "Data scrubbing tools",
+      "Data migration tools"
+    ],
+    "answer": "Data scrubbing tools"
+  },
+  {
+    "question": "In Data Integration, what is the term for the problem of identifying real-world entities that may have different representations across multiple data sources (e.g., 'Bill Clinton' vs 'William Clinton')? [cite: 57]",
+    "options": [
+      "Schema heterogeneity",
+      "Data value conflict",
+      "Entity identification problem",
+      "Referential constraint mismatch"
+    ],
+    "answer": "Entity identification problem"
+  },
+  {
+    "question": "Which statistical test is employed for detecting redundancies and correlations for *nominal data*? [cite: 59]",
+    "options": [
+      "Correlation coefficient",
+      "Covariance",
+      "$\\chi^2$ (chi-square) test",
+      "t-test"
+    ],
+    "answer": "$\\chi^2$ (chi-square) test"
+  },
+  {
+    "question": "Why is data reduction needed? [cite: 62]",
+    "options": [
+      "To improve data consistency.",
+      "To ensure data integration matches schema.",
+      "Because complex data analysis may take too long to run on complete datasets of terabytes in volume.",
+      "To resolve data value conflicts caused by different scaling."
+    ],
+    "answer": "Because complex data analysis may take too long to run on complete datasets of terabytes in volume."
+  },
+  {
+    "question": "Which data reduction strategy involves removing unimportant attributes? [cite: 62]",
+    "options": [
+      "Numerosity reduction",
+      "Data compression",
+      "Dimensionality reduction",
+      "Data cube aggregation"
+    ],
+    "answer": "Dimensionality reduction"
+  },
+  {
+    "question": "What is the primary consequence of the 'Curse of Dimensionality'? [cite: 63]",
+    "options": [
+      "Data becomes less sparse.",
+      "Density and distance between points become more meaningful.",
+      "The possible combinations of subspaces will grow exponentially.",
+      "It helps eliminate irrelevant attributes."
+    ],
+    "answer": "The possible combinations of subspaces will grow exponentially."
+  },
+  {
+    "question": "A major disadvantage of the Fourier Transform is that it captures global frequency information. What advantage does the Wavelet Transform offer in contrast? [cite: 69]",
+    "options": [
+      "It is simpler to compute for large signals.",
+      "It is only applicable to high dimensional data.",
+      "It captures global frequency information only.",
+      "It can extract local spectral and temporal information simultaneously."
+    ],
+    "answer": "It can extract local spectral and temporal information simultaneously."
+  },
+  {
+    "question": "What property of a wavelet defines how 'stretched' or 'squished' it is, relating to frequency? [cite: 67]",
+    "options": [
+      "Location",
+      "Amplitude",
+      "Scale (or dilation)",
+      "Mother wavelet"
+    ],
+    "answer": "Scale (or dilation)"
+  },
+  {
+    "question": "What is the main idea behind Principal Component Analysis (PCA)? [cite: 74, 75]",
+    "options": [
+      "Finding a projection that minimizes the variation in data.",
+      "Maximizing the number of variables in a dataset.",
+      "Finding a projection that captures the largest amount of variation in data.",
+      "Performing an exhaustive search on $2^n$ possible subsets."
+    ],
+    "answer": "Finding a projection that captures the largest amount of variation in data."
+  },
+  {
+    "question": "What is the first required step in performing Principal Component Analysis (PCA)? [cite: 75]",
+    "options": [
+      "Calculate the covariance matrix.",
+      "Calculate the eigenvalues and eigenvectors.",
+      "Standardize the dataset.",
+      "Transform the original matrix."
+    ],
+    "answer": "Standardize the dataset."
+  },
+  {
+    "question": "In Attribute Subset Selection, what defines an 'irrelevant attribute'? [cite: 77]",
+    "options": [
+      "An attribute whose information can be extracted from other attributes.",
+      "An attribute that contains no information useful for the data analysis task at hand.",
+      "An attribute that has a high correlation coefficient with the outcome variable.",
+      "An attribute that is highly correlated with another attribute."
+    ],
+    "answer": "An attribute that contains no information useful for the data analysis task at hand."
+  },
+  {
+    "question": "Which heuristic search method for Attribute Subset Selection starts with an empty set and iteratively adds the best attribute from the original set? [cite: 78]",
+    "options": [
+      "Stepwise backward elimination",
+      "Combination of forward and backward selection",
+      "Decision tree induction",
+      "Stepwise forward selection"
+    ],
+    "answer": "Stepwise forward selection"
+  },
+  {
+    "question": "Which category of Numerosity Reduction techniques assumes the data fits some model, estimates parameters, and stores only the parameters? [cite: 81]",
+    "options": [
+      "Non-Parametric methods",
+      "Data compression methods",
+      "Parametric methods",
+      "Dimensionality reduction methods"
+    ],
+    "answer": "Parametric methods"
+  },
+  {
+    "question": "What is the histogram partitioning rule where the data range is divided into N intervals of equal size? [cite: 84]",
+    "options": [
+      "Equal-frequency partitioning",
+      "Singleton bucket partitioning",
+      "Equal-depth partitioning",
+      "Equal-width partitioning"
+    ],
+    "answer": "Equal-width partitioning"
+  },
+  {
+    "question": "When data compression is applied, if the original data can be reconstructed from the compressed data *without any information loss*, what is this type of data reduction called? [cite: 89]",
+    "options": [
+      "Lossy",
+      "Lossless",
+      "Approximation",
+      "Dimensionality reduction"
+    ],
+    "answer": "Lossless"
+  },
+  {
+    "question": "Based on the provided test questions, what type of data reduction method is Principal Component Analysis (PCA)? [cite: 90]",
+    "options": [
+      "Lossless",
+      "Lossy",
+      "Parametric",
+      "Non-Parametric"
+    ],
+    "answer": "Lossy"
+  },
+  {
+    "question": "Which normalization method performs a linear transformation, mapping values from $[min_A, max_A]$ to $[new\\_min_A, new\\_max_A]$, and is susceptible to 'out-of-bounds' errors if new inputs are outside the original range? [cite: 101, 105, 113]",
+    "options": [
+      "Z-score Normalization",
+      "Min-Max Normalization",
+      "Decimal Scaling",
+      "Mean Absolute Deviation"
+    ],
+    "answer": "Min-Max Normalization"
+  },
+  {
+    "question": "Which method of normalization should be chosen if one is dealing with a lot of outliers and does not know the range of the data? [cite: 100, 106, 113]",
+    "options": [
+      "Min-Max Normalization",
+      "Z-Score Normalization",
+      "Decimal Scaling",
+      "Concept Hierarchy Generation"
+    ],
+    "answer": "Z-Score Normalization"
+  },
+  {
+    "question": "What is the process called when the range of a continuous attribute is divided into intervals, and interval labels are used to replace the actual data values? [cite: 94]",
+    "options": [
+      "Normalization",
+      "Aggregation",
+      "Discretization",
+      "Smoothing"
+    ],
+    "answer": "Discretization"
+  },
+  {
+    "question": "If the discretization process uses class information to determine interval splits, it is called: [cite: 94]",
+    "options": [
+      "Bottom-up discretization",
+      "Unsupervised discretization",
+      "Supervised discretization",
+      "Concept hierarchy generation"
+    ],
+    "answer": "Supervised discretization"
+  },
+  {
+    "question": "What kind of binning partitioning divides the range into N intervals, each containing approximately the same number of samples? [cite: 97]",
+    "options": [
+      "Equal-width partitioning",
+      "Equal-depth (frequency) partitioning",
+      "Bin boundary partitioning",
+      "Singleton bucket partitioning"
+    ],
+    "answer": "Equal-depth (frequency) partitioning"
+  },
+  {
+    "question": "Which measure is used in Decision Tree analysis to determine the optimal split point for discretization, where a lower value of this measure indicates a better split? [cite: 99, 101, 113]",
+    "options": [
+      "Variance",
+      "Entropy",
+      "Mean Absolute Deviation",
+      "Chi-square value"
+    ],
+    "answer": "Entropy"
+  },
+  {
+    "question": "Chi-merge, a $\\chi^2$-based discretization method, employs which approach? [cite: 99]",
+    "options": [
+      "Top-down split, unsupervised",
+      "Bottom-up merge, unsupervised",
+      "Top-down split, supervised",
+      "Bottom-up merge, supervised"
+    ],
+    "answer": "Bottom-up merge, supervised"
+  },
+  {
+    "question": "In Concept Hierarchy Generation for nominal data, if a user specifies only a partial set of attributes (e.g., street and city), how can the system handle this? [cite: 110, 111]",
+    "options": [
+      "The system rejects the input as incomplete.",
+      "The system automatically generates missing levels based on frequency.",
+      "One attribute will trigger a whole group of linked attributes (like state and country) to be added, based on embedded data semantics.",
+      "The user must define explicit data grouping manually."
+    ],
+    "answer": "One attribute will trigger a whole group of linked attributes (like state and country) to be added, based on embedded data semantics."
+  },
+  {
+    "question": "Which two individuals developed the R programming language in 1993? [cite: 116, 120]",
+    "options": [
+      "John Chambers and Robert Gentleman",
+      "Ross Ihaka and John Chambers",
+      "Ross Ihaka and Robert Gentleman",
+      "Jiawei Han and Micheline Kamber"
+    ],
+    "answer": "Ross Ihaka and Robert Gentleman"
+  },
+  {
+    "question": "What is the primary location for obtaining R packages? [cite: 121, 125]",
+    "options": [
+      "R Studio Website",
+      "Comprehensive R Archive Network (CRAN)",
+      "Bell Labs Repository",
+      "GitHub"
+    ],
+    "answer": "Comprehensive R Archive Network (CRAN)"
+  },
+  {
+    "question": "In R, which function is used to load an installed package so that its functions become available for use? [cite: 126, 127]",
+    "options": [
+      "install.packages()",
+      "library()",
+      "getwd()",
+      "available.packages()"
+    ],
+    "answer": "library()"
+  },
+  {
+    "question": "What is the statistical technique used to check if the means of two or more groups are significantly different from each other by checking the impact of one or more factors? [cite: 129, 166]",
+    "options": [
+      "Multiple t-tests",
+      "Correlation analysis",
+      "Analysis of Variance (ANOVA)",
+      "Regression analysis"
+    ],
+    "answer": "Analysis of Variance (ANOVA)"
+  },
+  {
+    "question": "In ANOVA, the 'Means Model' (reduced model) is given by $Y_{ij} = \\mu + \\epsilon_{ij}$. What assumption does this model enforce? [cite: 130]",
+    "options": [
+      "That the factor effect ($\\tau_i$) is non-zero.",
+      "That the mean $\\mu$ is common for all levels of the factor.",
+      "That the factor effect ($\\tau_i$) is greater than the error ($\\epsilon_{ij}$).",
+      "That the outcome variable is dependent on the factor level."
+    ],
+    "answer": "That the mean $\\mu$ is common for all levels of the factor."
+  },
+  {
+    "question": "Why is it inappropriate to use multiple two-sample t-tests simultaneously to compare the population means of three or more groups? [cite: 134, 148, 166]",
+    "options": [
+      "The degrees of freedom calculation becomes too complex.",
+      "It requires much more computation than ANOVA.",
+      "It results in an incorrect estimation (inflation) of the Type I error.",
+      "It can only test for negative correlations."
+    ],
+    "answer": "It results in an incorrect estimation (inflation) of the Type I error."
+  },
+  {
+    "question": "Which of the following is a necessary assumption for performing a One-way ANOVA? [cite: 136]",
+    "options": [
+      "The population response variable follows a Poisson distribution.",
+      "The sample subjects must be non-randomly selected.",
+      "The population variances for different groups are assumed to be the same.",
+      "The factor must have exactly two levels."
+    ],
+    "answer": "The population variances for different groups are assumed to be the same."
+  },
+  {
+    "question": "If a factor has $k$ levels, what is the Null Hypothesis ($H_0$) for a one-way ANOVA? [cite: 137]",
+    "options": [
+      "$H_0$: $\\mu_1 \\neq \\mu_2 \\neq \\ldots \\neq \\mu_k$",
+      "$H_0$: $\\mu_1 = \\mu_2 = \\ldots = \\mu_k$",
+      "$H_A$: Not all $\\mu$ values are equal",
+      "$H_0$: $\\tau_1 = \\tau_2 = \\ldots = \\tau_k$"
+    ],
+    "answer": "$H_0$: $\\mu_1 = \\mu_2 = \\ldots = \\mu_k$"
+  },
+  {
+    "question": "For an experiment with a single factor of $k$ levels and a total of $n$ observations, what is the degrees of freedom for the Sum of Squares of Within (SSW) Group Variation? [cite: 141, 150]",
+    "options": [
+      "$n - 1$",
+      "$k - 1$",
+      "$n - k$",
+      "$n + k$"
+    ],
+    "answer": "$n - k$"
+  },
+  {
+    "question": "If the null hypothesis in a One-way ANOVA is true (i.e., all group means are equal), what result is expected for the ratio of Mean Square Between (MSB) to Mean Square Within (MSW)? [cite: 143]",
+    "options": [
+      "The ratio will be significantly greater than 1.",
+      "The ratio will be close to 1.",
+      "The ratio will be close to 0.",
+      "The ratio will follow a t-distribution."
+    ],
+    "answer": "The ratio will be close to 1."
+  },
+  {
+    "question": "The test statistic $F = MSB/MSW$ for one-way ANOVA follows which distribution? [cite: 144]",
+    "options": [
+      "Chi-square distribution",
+      "Normal distribution",
+      "t-distribution",
+      "F-distribution"
+    ],
+    "answer": "F-distribution"
+  },
+  {
+    "question": "If the null hypothesis is rejected in a one-way ANOVA, what does this result indicate? [cite: 144]",
+    "options": [
+      "It indicates that all group means are different from each other.",
+      "It indicates that the variation within groups is larger than the variation between groups.",
+      "It indicates that there is a difference in at least one of the group means.",
+      "It provides the precise pair of means that are different."
+    ],
+    "answer": "It indicates that there is a difference in at least one of the group means."
+  },
+  {
+    "question": "In the two-way ANOVA model $Y_{ijk} = \\mu + \\alpha_i + \\beta_j + \\alpha_i\\beta_j + \\epsilon_{ijk}$, what does the term $\\alpha_i\\beta_j$ represent? [cite: 158]",
+    "options": [
+      "The effect of factor A.",
+      "The overall mean value.",
+      "The interaction of the $i^{th}$ level of factor A and the $j^{th}$ level of factor B.",
+      "The error associated with the $k^{th}$ observation."
+    ],
+    "answer": "The interaction of the $i^{th}$ level of factor A and the $j^{th}$ level of factor B."
+  },
+  {
+    "question": "What is the null hypothesis for testing Factor A Main Effects in a Two-Way ANOVA? [cite: 159]",
+    "options": [
+      "$H_0$: $\\alpha_i = 0$ for all $i$",
+      "$H_0$: $\\beta_j = 0$ for all $j$",
+      "$H_0$: $\\alpha_i\\beta_j = 0$ for all $i$ and $j$",
+      "$H_0$: Not all $\\alpha_i$ are zero"
+    ],
+    "answer": "$H_0$: $\\alpha_i = 0$ for all $i$"
+  },
+  {
+    "question": "A two-way ANOVA means that the experimental design includes how many independent variables (factors)? [cite: 167]",
+    "options": [
+      "One dependent variable",
+      "Two dependent variables",
+      "One independent variable",
+      "Two independent variables"
+    ],
+    "answer": "Two independent variables"
+  },
+  {
+    "question": "In a two-way ANOVA, the interaction effect is defined as: [cite: 168]",
+    "options": [
+      "The effect of changing the levels of one factor on the dependent scores, ignoring other factors.",
+      "The total variation in the data (SST).",
+      "The extent to which the influence one factor has on scores depends on the level of the other factor.",
+      "The sum of squares deviation within a group (SSW)."
+    ],
+    "answer": "The extent to which the influence one factor has on scores depends on the level of the other factor."
+  },
+  {
+    "question": "If the covariance between two random variables A and B is negative ($Cov_{A,B} < 0$), what relationship interpretation is implied? [cite: 172]",
+    "options": [
+      "A and B are independent.",
+      "A and B both tend to be larger than their expected values.",
+      "If A is larger than its expected value, B is likely to be smaller than its expected value.",
+      "A and B are guaranteed to follow a multivariate normal distribution."
+    ],
+    "answer": "If A is larger than its expected value, B is likely to be smaller than its expected value."
+  },
+  {
+    "question": "Pearson correlation coefficient is used for measuring the strength and direction of the linear relationship between two variables, provided they belong to which type(s) of scale? [cite: 177, 191, 196]",
+    "options": [
+      "Nominal or Ordinal scale",
+      "Only Nominal scale",
+      "Ratio or Interval scale",
+      "Only Ordinal scale"
+    ],
+    "answer": "Ratio or Interval scale"
+  },
+  {
+    "question": "What is the mathematical relationship between the Pearson correlation coefficient ($r$) and the coefficient of determination ($R^2$) of the linear regression model? [cite: 182]",
+    "options": [
+      "$r = R^2$",
+      "$r^2 = R$",
+      "$r^2 = R^2$",
+      "They are independent measures."
+    ],
+    "answer": "$r^2 = R^2$"
+  },
+  {
+    "question": "If the Pearson correlation coefficient value between variables X and Y is zero, what can be concluded about their relationship? [cite: 183, 195]",
+    "options": [
+      "There is absolutely no relationship between X and Y.",
+      "There is a strong linear relationship.",
+      "There might still be a strong non-linear relationship between X and Y.",
+      "The covariance must be positive."
+    ],
+    "answer": "There might still be a strong non-linear relationship between X and Y."
+  },
+  {
+    "question": "The sampling distribution of the Pearson correlation coefficient $r$ follows an approximate t-distribution with how many degrees of freedom ($n$ is the number of cases)? [cite: 187]",
+    "options": [
+      "$n$",
+      "$n - 1$",
+      "$n - 2$",
+      "$n - 3$"
+    ],
+    "answer": "$n - 2$"
+  },
+  {
+    "question": "What is the phenomenon called when a seemingly related correlation between two random variables is actually caused by some other latent variable influencing both? [cite: 193]",
+    "options": [
+      "Multicollinearity",
+      "Confounding bias",
+      "Spurious correlation",
+      "Simpson's Paradox"
+    ],
+    "answer": "Spurious correlation"
+  },
+  {
+    "question": "Which correlation measure is appropriate when both random variables being compared are of the ordinal scale? [cite: 196]",
+    "options": [
+      "Pearson product moment correlation",
+      "Point Bi-Serial correlation",
+      "Spearman rank correlation ($\\rho_s$)",
+      "Phi-Coefficient"
+    ],
+    "answer": "Spearman rank correlation ($\\rho_s$)"
+  },
+  {
+    "question": "Which correlation measure is used when determining the correlation between a continuous random variable and a dichotomous (binary) random variable? [cite: 199]",
+    "options": [
+      "Phi-Coefficient",
+      "Spearman rank correlation",
+      "Point Bi-Serial correlation",
+      "Pearson correlation"
+    ],
+    "answer": "Point Bi-Serial correlation"
+  },
+  {
+    "question": "Which coefficient is recommended by Karl Pearson for calculating the association relationship when both variables are binary? [cite: 204]",
+    "options": [
+      "The Phi-Coefficient ($\\varphi$)",
+      "The Point Bi-Serial correlation ($r_b$)",
+      "The Spearman rank correlation ($r_s$)",
+      "The Correlation Coefficient ($r$)"
+    ],
+    "answer": "The Phi-Coefficient ($\\varphi$)"
+  },
+  {
+    "question": "What is a 'Hidden' (or latent) variable defined as in supervised learning? [cite: 210]",
+    "options": [
+      "A variable that is visible only in the training set.",
+      "A variable that we never 'see', not even in training.",
+      "A confounding variable that is included in the study.",
+      "A variable used primarily for dimensionality reduction."
+    ],
+    "answer": "A variable that we never 'see', not even in training."
+  },
+  {
+    "question": "What is the statistical phenomenon, described by Edward Hugh Simpson, where a trend present when data is combined reverses or disappears when the data is put into groups? [cite: 214, 215]",
+    "options": [
+      "Cochran’s Theorem",
+      "Confounding Bias",
+      "The Curse of Dimensionality",
+      "Simpson's Paradox"
+    ],
+    "answer": "Simpson's Paradox"
+  },
+  {
+    "question": "In the context of Simpson's Paradox, a hidden variable that splits data into multiple separate distributions is aptly referred to as a: [cite: 218, 219]",
+    "options": [
+      "Proxy variable",
+      "Independent variable",
+      "Lurking variable",
+      "Response variable"
+    ],
+    "answer": "Lurking variable"
+  },
+  {
+    "question": "What is a 'confounding variable'? [cite: 221, 228]",
+    "options": [
+      "The dependent variable that measures the supposed effect.",
+      "An independent variable that represents the supposed cause.",
+      "A third variable that influences both the independent and dependent variables.",
+      "A variable that is simply not included in the study (lurking variable)."
+    ],
+    "answer": "A third variable that influences both the independent and dependent variables."
+  },
+  {
+    "question": "When confounding bias causes the observed association to be biased away from the null, meaning it overestimates the effect, it is known as: [cite: 223]",
+    "options": [
+      "Negative confounding",
+      "Neutral confounding",
+      "Positive confounding",
+      "Omitted variable bias"
+    ],
+    "answer": "Positive confounding"
+  }
+]
